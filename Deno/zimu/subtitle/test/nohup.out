@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "server.py", line 1, in <module>
+    from flask import Flask
+  File "/Users/wangbiao/opt/anaconda3/envs/venv/lib/python3.5/site-packages/flask/__init__.py", line 19, in <module>
+    from . import json
+  File "/Users/wangbiao/opt/anaconda3/envs/venv/lib/python3.5/site-packages/flask/json/__init__.py", line 25, in <module>
+    import dataclasses
+  File "/Users/wangbiao/opt/anaconda3/envs/venv/lib/python3.5/site-packages/dataclasses.py", line 246
+    f'name={self.name!r},'
+    ^
+SyntaxError: invalid syntax
+python运行中。。。。。
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:9999/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 128-075-850

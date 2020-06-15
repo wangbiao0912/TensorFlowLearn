@@ -1,0 +1,1 @@
+from videocr import get_subtitlesif __name__ == '__main__':  # This check is mandatory for Windows.    print(get_subtitles('/Users/wangbiao/Downloads/Video/视频内容分析.mp4', lang='chi_sim+eng', sim_threshold=70, conf_threshold=65))

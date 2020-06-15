@@ -1,0 +1,1 @@
+import mxnet as mxfrom cnocr import CnOcrocr = CnOcr()imagePath = '/Users/wangbiao/Downloads/Video/视频内容分析/00:00:00,800.jpg'# img_fp = 'examples/multi-line_cn1.png'img = mx.image.imread(imagePath, 1)res = ocr.ocr(imagePath)print("Predicted Chars:", res)

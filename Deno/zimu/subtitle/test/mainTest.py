@@ -1,0 +1,1 @@
+#coding:utf-8from videoToImages import subtitleStartif __name__ == "__main__":    video_filename = '/Users/wangbiao/Downloads/demo/video/视频内容分析.mp4'    subtitleStart(video_filename)
